@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77001" started-at="2021-10-13T18:37:07Z" finished-at="2021-10-13T18:38:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77001" started-at="2021-10-13T18:37:07Z" finished-at="2021-10-13T18:38:24Z">
+      <class name="testRunner.BankTestRunner">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testRunner.BankTestRunner@6e1567f1]" name="initialize" is-config="true" duration-ms="305" started-at="2021-10-13T18:37:07Z" finished-at="2021-10-13T18:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.BankTestRunner@6e1567f1]" name="feature" duration-ms="76455" started-at="2021-10-13T18:37:07Z" description="Cucumber with TestNG" data-provider="getFeature" finished-at="2021-10-13T18:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Test Guru99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testRunner.BankTestRunner@6e1567f1]" name="close" is-config="true" duration-ms="100" started-at="2021-10-13T18:38:24Z" finished-at="2021-10-13T18:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testRunner.BankTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,465 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Basic login check",
+        "description": "",
+        "id": "bank-test-guru99;basic-login-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6352461400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open the browser and access the URL",
+            "match": {
+              "location": "stepDefinition.user_open_the_browser_and_access_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192755000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on homepage and verifies the title",
+            "match": {
+              "location": "stepDefinition.user_is_on_homepage_and_verifies_the_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3580548200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gives \"mngr26593\" and \"1!\" to login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr26593",
+                  "offset": 12
+                },
+                {
+                  "val": "1!",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinition.user_gives_and_to_login(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158420600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verifies that profile id is displayed",
+            "match": {
+              "location": "stepDefinition.verifies_that_profile_id_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6071502500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click logout",
+            "match": {
+              "location": "stepDefinition.click_logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login check with Data Table",
+        "description": "",
+        "id": "bank-test-guru99;login-check-with-data-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4923142800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User opens the browser",
+            "match": {
+              "location": "stepDefinition.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184598600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verifies the bank page",
+            "match": {
+              "location": "stepDefinition.user_verifies_the_bank_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3366336700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User inputs the credentials",
+            "match": {
+              "location": "stepDefinition.user_inputs_the_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mngr359049",
+                  "YnumYpy"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152692000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Checks that the profile ID is visible",
+            "match": {
+              "location": "stepDefinition.checks_that_the_profile_ID_is_visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6297784900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Decides to logout",
+            "match": {
+              "location": "stepDefinition.decides_to_logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Valid login check with Maps",
+        "description": "",
+        "id": "bank-test-guru99;valid-login-check-with-maps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4591406100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on bank login page",
+            "match": {
+              "location": "stepDefinition.user_is_on_bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128929000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Title of the page matches",
+            "match": {
+              "location": "stepDefinition.title_of_the_page_matches()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3479567400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters the username and password",
+            "match": {
+              "location": "stepDefinition.user_enters_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "mngr26593",
+                  "1!"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 150146800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User checks the id for the profile is displayed",
+            "match": {
+              "location": "stepDefinition.user_checks_the_id_for_the_profile_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6474860300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Use decides to logout",
+            "match": {
+              "location": "stepDefinition.use_decides_to_logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5015584000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.callSetup()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Create account",
+        "description": "",
+        "id": "bank-test-guru99;create-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1814153100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.callClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 133197900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User check the title and the URL of the page",
+            "match": {
+              "location": "stepDefinition.user_check_the_title_and_the_URL_of_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3422017600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User enters \"mngr359057\" and \"zyjAsyb\" and login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr359057",
+                  "offset": 13
+                },
+                {
+                  "val": "zyjAsyb",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.user_enters_and_and_login(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154948600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User makes sure that the profile id is displayed",
+            "match": {
+              "location": "stepDefinition.user_makes_sure_that_the_profile_id_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1032715900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User click on new customer",
+            "match": {
+              "location": "stepDefinition.user_click_on_new_customer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4877045100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User fills up the customer details",
+            "match": {
+              "location": "stepDefinition.user_fills_up_the_customer_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1769462300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User navigates back to profile page",
+            "match": {
+              "location": "stepDefinition.user_navigates_back_to_profile_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 927814500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User clicks on new account",
+            "match": {
+              "location": "stepDefinition.user_clicks_on_new_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4478149400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User fills up the account details",
+            "match": {
+              "location": "stepDefinition.user_fills_up_the_account_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "CustomerID",
+                  "AccountType",
+                  "Deposit"
+                ],
+                "line": 44
+              },
+              {
+                "cells": [
+                  "45804",
+                  "Savings",
+                  "5000"
+                ],
+                "line": 45
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2073323800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User again navigates back",
+            "match": {
+              "location": "stepDefinition.user_again_navigates_back()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4475724800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User decides to click Logout button",
+            "match": {
+              "location": "stepDefinition.user_decides_to_click_Logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 34,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Bank Test Guru99",
+    "description": "",
+    "id": "bank-test-guru99",
+    "keyword": "Feature",
+    "uri": "./src/test/java/feature/bankCucumber.feature"
+  }
+]

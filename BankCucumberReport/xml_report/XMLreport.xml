@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="76.27929">
+<testcase classname="Bank Test Guru99" name="Basic login check" time="16.355688">
+<system-out><![CDATA[Given User open the browser and access the URL..............................passed
+When User is on homepage and verifies the title.............................passed
+Then User gives "mngr26593" and "1!" to login...............................passed
+And Verifies that profile id is displayed...................................passed
+Then Click logout...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bank Test Guru99" name="Login check with Data Table" time="14.924555">
+<system-out><![CDATA[Given User opens the browser................................................passed
+When User verifies the bank page............................................passed
+Then User inputs the credentials............................................passed
+And Checks that the profile ID is visible...................................passed
+Then Decides to logout......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bank Test Guru99" name="Valid login check with Maps" time="14.82491">
+<system-out><![CDATA[Given User is on bank login page............................................passed
+When Title of the page matches..............................................passed
+Then User enters the username and password..................................passed
+And User checks the id for the profile is displayed.........................passed
+Then Use decides to logout..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bank Test Guru99" name="Create account" time="30.174137">
+<system-out><![CDATA[Given User check the title and the URL of the page..........................passed
+When User enters "mngr359057" and "zyjAsyb" and login.......................passed
+Then User makes sure that the profile id is displayed.......................passed
+Then User click on new customer.............................................passed
+And User fills up the customer details......................................passed
+Then User navigates back to profile page....................................passed
+Then User clicks on new account.............................................passed
+And User fills up the account details.......................................passed
+Then User again navigates back..............................................passed
+Then User decides to click Logout button....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
